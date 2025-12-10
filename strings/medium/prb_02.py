@@ -1,5 +1,6 @@
 # Longest Common Prefix Among Strings
 
+# We reduce the prefix step by step until it matches all strings.
 strs = ["flower", "flow", "flight"]
 
 prefix = strs[0]
